@@ -68,3 +68,11 @@ npm start
 ## Personal Note
 
 This project was initially intended to be developed with Angular for the frontend and NestJS for the backend. As a MERN stack developer, I can easly grasp new technologies quickly. Given my experience with TypeScript and related technologies, transitioning to Angular and NestJS is manageable. I was able to complete this application in a short time for your reference. I hope you appreciate the effort put into this project and allow me some time to learn Angular and NestJS for our future projects.
+
+I have simply hosted the backend on Render. You can check it using Postman with the following links:
+
+Admin API: https://machine-task-n99k.onrender.com/api/admin
+Resident API: https://machine-task-n99k.onrender.com/api/resident
+Feel free to test the endpoints as needed.
+
+If any doubt or issue regarding this Machine Task or any related queries, please let me know
