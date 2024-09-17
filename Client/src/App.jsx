@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import AdminLogin from "./Admin/adminLogin";
 import { useSelector } from "react-redux";
+import ResidentDashboard from "./Resident/residentDashboard";
 function App() {
   const adminToken = useSelector((state) => state?.admin?.admin?.token);
   return (
@@ -19,7 +20,7 @@ function App() {
             path="/admin-login/*"
             element={adminToken ? <Navigate to={"/admin"} /> : <AdminLogin />}
           />
-          {/* <Route path="/*" element={<SeekerRoute />} /> */}
+          <Route path="/*" element={<ResidentDashboard />} />
         </Routes>
       </BrowserRouter>
     </>

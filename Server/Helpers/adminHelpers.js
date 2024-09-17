@@ -16,7 +16,7 @@ const AdminHelper = () => {
   };
   const getRequests = async () => {
     const Requests = await Request.find();
-    return Requests;
+    return Requests.reverse();
   };
   const requestSolved = async (reqId) => {
     const makeRequestSolved = await Request.findByIdAndUpdate(
