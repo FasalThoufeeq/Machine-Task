@@ -43,23 +43,6 @@ A full-stack web application built using **React.js**, **Express.js**, and **Mon
 
 This feature ensures constant communication between the **Admin** and the **Resident**, keeping both parties informed and engaged.
 
-## Packages Used and Their Purpose
-
-### Frontend Packages:
-
-- **Axios** – Used to handle HTTP requests between the frontend and the backend.
-- **Formik** – Simplifies form handling, validation, and submission in React.
-- **@reduxjs/toolkit** – Manages global state efficiently, helping track the application's data.
-- **React Toastify** – Displays toast notifications to the user for actions like successful request submission or errors.
-
-### Backend Packages:
-
-- **Nodemailer** – Sends emails for notifying the resident when a request is created or completed.
-- **jsonwebtoken** – Provides secure token-based authentication for protected routes.
-- **express-async-handler** – Simplifies error handling by wrapping route handlers in asynchronous functions.
-- **CORS** – Enables cross-origin requests, allowing the frontend to interact with the backend API.
-- **bcryptjs** – Hashes passwords to enhance security before storing them in the database.
-
 ## Installation and Setup
 
 ### Backend:
